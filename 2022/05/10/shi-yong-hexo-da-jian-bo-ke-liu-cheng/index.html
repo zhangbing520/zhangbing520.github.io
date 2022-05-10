@@ -4,8 +4,22 @@
 
 <head>
     <meta charset="utf-8">
-    <meta name="keywords" content="Hello World, Hexo">
-    <meta name="description" content="Welcome to Hexo! This is your very first post. Check documentation for more info. If you get any problems when using Hex">
+    <meta name="keywords" content="Hexo">
+    <meta name="description" content="使用hexo搭建博客流程1. 基础搭建
+下载Node（包括node npm）
+node -v
+npm -v
+
+   
+
+
+切换到主页
+sudo su
+
+
+
+安装cnpm
+npm install -g cnpm --registry=http">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
     <meta name="renderer" content="webkit|ie-stand|ie-comp">
@@ -19,7 +33,7 @@
 
     
 
-    <title>Hello World | Hexo</title>
+    <title>Hexo</title>
     <link rel="icon" type="image/png" href="/favicon.png">
 
     <link rel="stylesheet" type="text/css" href="/libs/awesome/css/all.min.css">
@@ -311,12 +325,12 @@
 
 
 
-<div class="bg-cover pd-header post-cover" style="background-image: url('/medias/featureimages/12.jpg')">
+<div class="bg-cover pd-header post-cover" style="background-image: url('/medias/featureimages/0.jpg')">
     <div class="container" style="right: 0px;left: 0px;">
         <div class="row">
             <div class="col s12 m12 l12">
                 <div class="brand">
-                    <h1 class="description center-align post-title">Hello World</h1>
+                    <h1 class="description center-align post-title"></h1>
                 </div>
             </div>
         </div>
@@ -430,13 +444,9 @@
             <div class="row tag-cate">
                 <div class="col s7">
                     
-                    <div class="article-tag">
-                        
-                            <a href="/tags/%E9%9A%8F%E7%AC%94/">
-                                <span class="chip bg-color">随笔</span>
-                            </a>
-                        
-                    </div>
+                          <div class="article-tag">
+                            <span class="chip bg-color">无标签</span>
+                          </div>
                     
                 </div>
                 <div class="col s5 right-align">
@@ -472,19 +482,143 @@
 
         <div class="card-content article-card-content">
             <div id="articleContent">
-                <p>Welcome to <a target="_blank" rel="noopener" href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a target="_blank" rel="noopener" href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a target="_blank" rel="noopener" href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a target="_blank" rel="noopener" href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p>
-<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><pre class="line-numbers language-bash" data-language="bash"><code class="language-bash">$ hexo new "My New Post"<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre>
+                <h2 id="使用hexo搭建博客流程"><a href="#使用hexo搭建博客流程" class="headerlink" title="使用hexo搭建博客流程"></a>使用hexo搭建博客流程</h2><h3 id="1-基础搭建"><a href="#1-基础搭建" class="headerlink" title="1. 基础搭建"></a>1. 基础搭建</h3><ol>
+<li><p>下载Node（包括node npm）</p>
+<pre class="line-numbers language-bash" data-language="bash"><code class="language-bash">node -v
+npm -v<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span></span></code></pre></li>
+</ol>
+<span id="more"></span>   
 
-<p>More info: <a target="_blank" rel="noopener" href="https://hexo.io/docs/writing.html">Writing</a></p>
-<h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><pre class="line-numbers language-bash" data-language="bash"><code class="language-bash">$ hexo server<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre>
+<ol start="2">
+<li><p>切换到主页</p>
+<pre class="line-numbers language-bash" data-language="bash"><code class="language-bash">sudo su<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre>
 
-<p>More info: <a target="_blank" rel="noopener" href="https://hexo.io/docs/server.html">Server</a></p>
-<h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><pre class="line-numbers language-bash" data-language="bash"><code class="language-bash">$ hexo generate<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre>
 
-<p>More info: <a target="_blank" rel="noopener" href="https://hexo.io/docs/generating.html">Generating</a></p>
-<h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><pre class="line-numbers language-bash" data-language="bash"><code class="language-bash">$ hexo deploy<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre>
+</li>
+<li><p>安装cnpm</p>
+<pre class="line-numbers language-bash" data-language="bash"><code class="language-bash">npm install -g cnpm --registry=https://registry.npm.taobao.org
 
-<p>More info: <a target="_blank" rel="noopener" href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>
+cnpm -v<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span></span></code></pre>
+
+
+</li>
+<li><p>安装hexo</p>
+<pre class="line-numbers language-bash" data-language="bash"><code class="language-bash">cnpm install -g hexo-cli
+
+hexo -v<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span></span></code></pre>
+
+
+</li>
+<li><p>建立博客文件夹</p>
+<pre class="line-numbers language-bash" data-language="bash"><code class="language-bash">mkdir blog<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre>
+
+
+</li>
+<li><p>切换目录</p>
+<pre class="line-numbers language-bash" data-language="bash"><code class="language-bash">cd blog<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre>
+
+
+</li>
+<li><p>使用hexo生成博客</p>
+<pre class="line-numbers language-bash" data-language="bash"><code class="language-bash">sudo hexo init<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre>
+</li>
+<li><p>启动博客</p>
+<pre class="line-numbers language-bash" data-language="bash"><code class="language-bash">hexo start<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre>
+
+
+</li>
+<li><p>本地可以预览博客</p>
+</li>
+<li><p>新建一篇文章</p>
+<pre class="line-numbers language-bash" data-language="bash"><code class="language-bash">hexo n "我的第一篇博客文章"<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre>
+
+
+</li>
+<li><p>修改文件</p>
+<pre class="line-numbers language-bash" data-language="bash"><code class="language-bash">cd source/_posts
+
+vi "我的我的第一篇博客文章.md"
+
+# 修改文件后保存退出<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span></span></code></pre>
+
+
+</li>
+<li><p>切换回主页到blog文件夹</p>
+<pre class="line-numbers language-bash" data-language="bash"><code class="language-bash">cd ../..<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre>
+
+
+</li>
+<li><p>hexo clean</p>
+</li>
+<li><p>hexo g (生成)</p>
+</li>
+<li><p>启动：hexo s</p>
+</li>
+<li><p>本地可以预览效果</p>
+</li>
+</ol>
+<h3 id="2-博客部署到Github"><a href="#2-博客部署到Github" class="headerlink" title="2. 博客部署到Github"></a>2. 博客部署到Github</h3><ol>
+<li><p>创建Github仓库（已配置ssh keys）</p>
+<img src="https://gitee.com/zhangbing520/images/raw/master/img/202205092351356.png" alt="image-20220509235119241" style="zoom:50%;">
+</li>
+<li><p>配置token</p>
+<p>github： settings-&gt;Developer settings-&gt;personnal access tokens-&gt;Generate new token</p>
+</li>
+<li><p>上一步生成的token要记得,mac 聚焦搜索 <code>keychain access</code>进入钥匙串，然后搜索github：</p>
+<img src="https://gitee.com/zhangbing520/images/raw/master/img/202205092355461.png" alt="image-20220509235554422" style="zoom:50%;"></li>
+</ol>
+<p>​	点击修改密码为生成的token，保存退出。</p>
+<ol start="4">
+<li><p>在 blog文件加下安装git插件</p>
+<pre class="line-numbers language-bash" data-language="bash"><code class="language-bash">cnpm install --save hexo-deployer-git<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre>
+
+
+</li>
+<li><p>设置<code>_config.yml</code></p>
+<pre class="line-numbers language-bash" data-language="bash"><code class="language-bash">vi _config.yml<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre>
+
+<pre class="line-numbers language-bash" data-language="bash"><code class="language-bash">deploy:
+  type: git
+  repo: https://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@github.com/zhangbing520/zhangbing520.github.io.git
+  branch: master<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span></span></code></pre>
+
+
+</li>
+<li><p>部署到远端</p>
+<pre class="line-numbers language-bash" data-language="bash"><code class="language-bash">hexo d<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre>
+
+<ul>
+<li><p>代码会自动推送到远端</p>
+</li>
+<li><p>如果没有推成功</p>
+<pre class="line-numbers language-bash" data-language="bash"><code class="language-bash">git remote add origin https://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@github.com/zhangbing520/zhangbing520.github.io.git<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre></li>
+</ul>
+</li>
+<li><p>访问博客：<a href="https://zhangbing520.github.io/">博客地址</a></p>
+</li>
+</ol>
+<h3 id="3-修改主题"><a href="#3-修改主题" class="headerlink" title="3. 修改主题"></a>3. 修改主题</h3><ol>
+<li><p>切换到blog文件夹</p>
+</li>
+<li><p>git clone 主题git地址 themes/主题名称</p>
+<pre class="line-numbers language-bash" data-language="bash"><code class="language-bash">git clone https:// themes/yilia<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre>
+
+
+</li>
+<li><p>配置 <code>_config.yml</code>中的 <code>theme: yilia</code></p>
+</li>
+<li><p>Hexo clean</p>
+</li>
+<li><p>生成静态文件：hexo g</p>
+</li>
+<li><p>启动：hexo s (预览)</p>
+</li>
+<li><p>部署：hexo d</p>
+</li>
+<li><p>等推上去后需要等待一下，之后可以看到最新的页面</p>
+</li>
+</ol>
+<h3 id="参考"><a href="#参考" class="headerlink" title="参考:"></a>参考:</h3><p><a target="_blank" rel="noopener" href="https://www.bilibili.com/video/BV1Yb411a7ty?spm_id_from=333.1007.top_right_bar_window_history.content.click">codesheep b站视频</a></p>
 
                 
             </div>
@@ -511,7 +645,7 @@
                     </i>
                 </span>
                 <span class="reprint-info">
-                    <a href="https://zhangbing520.github.io/2022/05/10/hello-world/">https://zhangbing520.github.io/2022/05/10/hello-world/</a>
+                    <a href="https://zhangbing520.github.io/2022/05/10/shi-yong-hexo-da-jian-bo-ke-liu-cheng/">https://zhangbing520.github.io/2022/05/10/shi-yong-hexo-da-jian-bo-ke-liu-cheng/</a>
                 </span>
             </div>
             <div class="reprint__notice">
@@ -548,11 +682,7 @@
                 <div class="post-meta__tag-list" style="display: inline-block;">
                     
                         <div class="article-tag">
-                            
-                                <a href="/tags/%E9%9A%8F%E7%AC%94/">
-                                    <span class="chip bg-color">随笔</span>
-                                </a>
-                            
+                            <span class="chip bg-color">无标签</span>
                         </div>
                     
                 </div>
@@ -728,20 +858,19 @@
             <div class="article-badge left-badge text-color">
                 <i class="fas fa-chevron-left"></i>&nbsp;上一篇</div>
             <div class="card">
-                <a href="/2022/05/10/typescript-gao-ji/">
+                <a href="/2022/05/10/hello-world/">
                     <div class="card-image">
                         
                         
-                        <img src="/medias/featureimages/4.jpg" class="responsive-img" alt="TypeScript高级">
+                        <img src="/medias/featureimages/12.jpg" class="responsive-img" alt="Hello World">
                         
-                        <span class="card-title">TypeScript高级</span>
+                        <span class="card-title">Hello World</span>
                     </div>
                 </a>
                 <div class="card-content article-content">
                     <div class="summary block-with-text">
                         
-                            一级标题hello
-超链接百度
+                            
                         
                     </div>
                     <div class="publish-info">
@@ -759,8 +888,8 @@
                 
                 <div class="card-action article-tags">
                     
-                    <a href="/tags/TypeScript/">
-                        <span class="chip bg-color">TypeScript</span>
+                    <a href="/tags/%E9%9A%8F%E7%AC%94/">
+                        <span class="chip bg-color">随笔</span>
                     </a>
                     
                 </div>
@@ -771,7 +900,7 @@
         
         <div class="article col s12 m6" data-aos="fade-up">
             <div class="article-badge right-badge text-color">
-                下一篇&nbsp;<i class="fas fa-chevron-right"></i>
+                本篇&nbsp;<i class="far fa-dot-circle"></i>
             </div>
             <div class="card">
                 <a href="/2022/05/10/shi-yong-hexo-da-jian-bo-ke-liu-cheng/">
@@ -805,6 +934,7 @@ npm -v
                         </span>
                     </div>
                 </div>
+
                 
             </div>
         </div>

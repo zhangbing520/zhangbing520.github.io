@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<search> 
+  
+  
+    
+    <entry>
+      <title>TypeScript高级</title>
+      <link href="/2022/05/10/typescript-gao-ji/"/>
+      <url>/2022/05/10/typescript-gao-ji/</url>
+      
+        <content type="html"><![CDATA[<h1 id="一级标题"><a href="#一级标题" class="headerlink" title="一级标题"></a>一级标题</h1><p>hello</p><h1 id="超链接"><a href="#超链接" class="headerlink" title="超链接"></a>超链接</h1><p><a href="http://www.baodu.com/">百度</a></p><span id="more"></span><h1 id="图片"><a href="#图片" class="headerlink" title="图片"></a>图片</h1><p><img src="https://img3.mukewang.com/5fb36f270001cd6802940333.jpg" alt="图片名称"></p>]]></content>
+      
+      
+      
+        <tags>
+            
+            <tag> TypeScript </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>Hello World</title>
+      <link href="/2022/05/10/hello-world/"/>
+      <url>/2022/05/10/hello-world/</url>
+      
+        <content type="html"><![CDATA[<p>Welcome to <a href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p><h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><pre class="line-numbers language-bash" data-language="bash"><code class="language-bash">$ hexo new "My New Post"<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre><p>More info: <a href="https://hexo.io/docs/writing.html">Writing</a></p><h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><pre class="line-numbers language-bash" data-language="bash"><code class="language-bash">$ hexo server<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre><p>More info: <a href="https://hexo.io/docs/server.html">Server</a></p><h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><pre class="line-numbers language-bash" data-language="bash"><code class="language-bash">$ hexo generate<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre><p>More info: <a href="https://hexo.io/docs/generating.html">Generating</a></p><h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><pre class="line-numbers language-bash" data-language="bash"><code class="language-bash">$ hexo deploy<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre><p>More info: <a href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>]]></content>
+      
+      
+      
+        <tags>
+            
+            <tag> 随笔 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title></title>
+      <link href="/2022/05/10/shi-yong-hexo-da-jian-bo-ke-liu-cheng/"/>
+      <url>/2022/05/10/shi-yong-hexo-da-jian-bo-ke-liu-cheng/</url>
+      
+        <content type="html"><![CDATA[<h2 id="使用hexo搭建博客流程"><a href="#使用hexo搭建博客流程" class="headerlink" title="使用hexo搭建博客流程"></a>使用hexo搭建博客流程</h2><h3 id="1-基础搭建"><a href="#1-基础搭建" class="headerlink" title="1. 基础搭建"></a>1. 基础搭建</h3><ol><li><p>下载Node（包括node npm）</p><pre class="line-numbers language-bash" data-language="bash"><code class="language-bash">node -vnpm -v<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span></span></code></pre></li></ol><span id="more"></span>   <ol start="2"><li><p>切换到主页</p><pre class="line-numbers language-bash" data-language="bash"><code class="language-bash">sudo su<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre></li><li><p>安装cnpm</p><pre class="line-numbers language-bash" data-language="bash"><code class="language-bash">npm install -g cnpm --registry=https://registry.npm.taobao.orgcnpm -v<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span></span></code></pre></li><li><p>安装hexo</p><pre class="line-numbers language-bash" data-language="bash"><code class="language-bash">cnpm install -g hexo-clihexo -v<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span></span></code></pre></li><li><p>建立博客文件夹</p><pre class="line-numbers language-bash" data-language="bash"><code class="language-bash">mkdir blog<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre></li><li><p>切换目录</p><pre class="line-numbers language-bash" data-language="bash"><code class="language-bash">cd blog<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre></li><li><p>使用hexo生成博客</p><pre class="line-numbers language-bash" data-language="bash"><code class="language-bash">sudo hexo init<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre></li><li><p>启动博客</p><pre class="line-numbers language-bash" data-language="bash"><code class="language-bash">hexo start<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre></li><li><p>本地可以预览博客</p></li><li><p>新建一篇文章</p><pre class="line-numbers language-bash" data-language="bash"><code class="language-bash">hexo n "我的第一篇博客文章"<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre></li><li><p>修改文件</p><pre class="line-numbers language-bash" data-language="bash"><code class="language-bash">cd source/_postsvi "我的我的第一篇博客文章.md"# 修改文件后保存退出<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span></span></code></pre></li><li><p>切换回主页到blog文件夹</p><pre class="line-numbers language-bash" data-language="bash"><code class="language-bash">cd ../..<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre></li><li><p>hexo clean</p></li><li><p>hexo g (生成)</p></li><li><p>启动：hexo s</p></li><li><p>本地可以预览效果</p></li></ol><h3 id="2-博客部署到Github"><a href="#2-博客部署到Github" class="headerlink" title="2. 博客部署到Github"></a>2. 博客部署到Github</h3><ol><li><p>创建Github仓库（已配置ssh keys）</p><img src="https://gitee.com/zhangbing520/images/raw/master/img/202205092351356.png" alt="image-20220509235119241" style="zoom:50%;"></li><li><p>配置token</p><p>github： settings-&gt;Developer settings-&gt;personnal access tokens-&gt;Generate new token</p></li><li><p>上一步生成的token要记得,mac 聚焦搜索 <code>keychain access</code>进入钥匙串，然后搜索github：</p><img src="https://gitee.com/zhangbing520/images/raw/master/img/202205092355461.png" alt="image-20220509235554422" style="zoom:50%;"></li></ol><p>​点击修改密码为生成的token，保存退出。</p><ol start="4"><li><p>在 blog文件加下安装git插件</p><pre class="line-numbers language-bash" data-language="bash"><code class="language-bash">cnpm install --save hexo-deployer-git<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre></li><li><p>设置<code>_config.yml</code></p><pre class="line-numbers language-bash" data-language="bash"><code class="language-bash">vi _config.yml<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre><pre class="line-numbers language-bash" data-language="bash"><code class="language-bash">deploy:  type: git  repo: https://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@github.com/zhangbing520/zhangbing520.github.io.git  branch: master<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span></span></code></pre></li><li><p>部署到远端</p><pre class="line-numbers language-bash" data-language="bash"><code class="language-bash">hexo d<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre><ul><li><p>代码会自动推送到远端</p></li><li><p>如果没有推成功</p><pre class="line-numbers language-bash" data-language="bash"><code class="language-bash">git remote add origin https://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@github.com/zhangbing520/zhangbing520.github.io.git<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre></li></ul></li><li><p>访问博客：<a href="https://zhangbing520.github.io/">博客地址</a></p></li></ol><h3 id="3-修改主题"><a href="#3-修改主题" class="headerlink" title="3. 修改主题"></a>3. 修改主题</h3><ol><li><p>切换到blog文件夹</p></li><li><p>git clone 主题git地址 themes/主题名称</p><pre class="line-numbers language-bash" data-language="bash"><code class="language-bash">git clone https:// themes/yilia<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre></li><li><p>配置 <code>_config.yml</code>中的 <code>theme: yilia</code></p></li><li><p>Hexo clean</p></li><li><p>生成静态文件：hexo g</p></li><li><p>启动：hexo s (预览)</p></li><li><p>部署：hexo d</p></li><li><p>等推上去后需要等待一下，之后可以看到最新的页面</p></li></ol><h3 id="参考"><a href="#参考" class="headerlink" title="参考:"></a>参考:</h3><p><a href="https://www.bilibili.com/video/BV1Yb411a7ty?spm_id_from=333.1007.top_right_bar_window_history.content.click">codesheep b站视频</a></p>]]></content>
+      
+      
+      
+    </entry>
+    
+    
+  
+  
+</search>
