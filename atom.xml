@@ -6,7 +6,7 @@
   <link href="https://zhangbing520.github.io/atom.xml" rel="self"/>
   
   <link href="https://zhangbing520.github.io/"/>
-  <updated>2022-05-10T17:02:00.038Z</updated>
+  <updated>2022-05-12T12:05:45.816Z</updated>
   <id>https://zhangbing520.github.io/</id>
   
   <author>
@@ -15,6 +15,31 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>第四章： 深度掌握泛型函数</title>
+    <link href="https://zhangbing520.github.io/2022/05/12/di-si-zhang-shen-du-zhang-wo-fan-xing-han-shu/"/>
+    <id>https://zhangbing520.github.io/2022/05/12/di-si-zhang-shen-du-zhang-wo-fan-xing-han-shu/</id>
+    <published>2022-05-12T12:01:33.000Z</published>
+    <updated>2022-05-12T12:05:45.816Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h2 id=&quot;慕课网-TS-高级课程&quot;&gt;&lt;a href=&quot;#慕课网-TS-高级课程&quot; class=&quot;headerlink&quot; title=&quot;慕课网 TS 高级课程&quot;&gt;&lt;/a&gt;慕课网 TS 高级课程&lt;/h2&gt;&lt;h3 id=&quot;第四章：-深度掌握泛型函数&quot;&gt;&lt;a</summary>
+        
+      
+    
+    
+    
+    <category term="TypeScript" scheme="https://zhangbing520.github.io/categories/TypeScript/"/>
+    
+    
+    <category term="TypeScript" scheme="https://zhangbing520.github.io/tags/TypeScript/"/>
+    
+  </entry>
   
   <entry>
     <title>泛型类+泛型接口+泛型类约束的复杂应用</title>
