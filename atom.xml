@@ -6,7 +6,7 @@
   <link href="https://zhangbing520.github.io/atom.xml" rel="self"/>
   
   <link href="https://zhangbing520.github.io/"/>
-  <updated>2022-05-12T12:05:45.816Z</updated>
+  <updated>2022-05-16T06:21:04.189Z</updated>
   <id>https://zhangbing520.github.io/</id>
   
   <author>
@@ -15,6 +15,31 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>TypeScript 装饰器</title>
+    <link href="https://zhangbing520.github.io/2022/05/16/typescript-zhuang-shi-qi/"/>
+    <id>https://zhangbing520.github.io/2022/05/16/typescript-zhuang-shi-qi/</id>
+    <published>2022-05-16T06:15:15.000Z</published>
+    <updated>2022-05-16T06:21:04.189Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h1 id=&quot;使用-TypeScript-装饰器装饰你的代码&quot;&gt;&lt;a href=&quot;#使用-TypeScript-装饰器装饰你的代码&quot; class=&quot;headerlink&quot; title=&quot;使用 TypeScript 装饰器装饰你的代码&quot;&gt;&lt;/a&gt;使用 TypeScript</summary>
+        
+      
+    
+    
+    
+    <category term="装饰器" scheme="https://zhangbing520.github.io/categories/%E8%A3%85%E9%A5%B0%E5%99%A8/"/>
+    
+    
+    <category term="TypeScript" scheme="https://zhangbing520.github.io/tags/TypeScript/"/>
+    
+  </entry>
   
   <entry>
     <title>第四章： 深度掌握泛型函数</title>
