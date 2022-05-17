@@ -6,7 +6,7 @@
   <link href="https://zhangbing520.github.io/atom.xml" rel="self"/>
   
   <link href="https://zhangbing520.github.io/"/>
-  <updated>2022-05-17T09:27:24.099Z</updated>
+  <updated>2022-05-17T12:57:25.719Z</updated>
   <id>https://zhangbing520.github.io/</id>
   
   <author>
@@ -15,6 +15,31 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>函数重载、方法重载、构造器重载</title>
+    <link href="https://zhangbing520.github.io/2022/05/17/han-shu-chong-zai-fang-fa-chong-zai-gou-zao-qi-chong-zai/"/>
+    <id>https://zhangbing520.github.io/2022/05/17/han-shu-chong-zai-fang-fa-chong-zai-gou-zao-qi-chong-zai/</id>
+    <published>2022-05-17T12:51:58.000Z</published>
+    <updated>2022-05-17T12:57:25.719Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h2 id=&quot;第二章-深度掌握-TypeScript-OOP-相关的一系列核心技能&quot;&gt;&lt;a href=&quot;#第二章-深度掌握-TypeScript-OOP-相关的一系列核心技能&quot; class=&quot;headerlink&quot; title=&quot;第二章 深度掌握 TypeScript OOP</summary>
+        
+      
+    
+    
+    
+    <category term="重载" scheme="https://zhangbing520.github.io/categories/%E9%87%8D%E8%BD%BD/"/>
+    
+    
+    <category term="TypeScript" scheme="https://zhangbing520.github.io/tags/TypeScript/"/>
+    
+  </entry>
   
   <entry>
     <title>TS OOP 深入 + 系列相关复杂技能</title>
