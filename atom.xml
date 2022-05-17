@@ -6,7 +6,7 @@
   <link href="https://zhangbing520.github.io/atom.xml" rel="self"/>
   
   <link href="https://zhangbing520.github.io/"/>
-  <updated>2022-05-16T06:21:04.189Z</updated>
+  <updated>2022-05-17T09:27:24.099Z</updated>
   <id>https://zhangbing520.github.io/</id>
   
   <author>
@@ -15,6 +15,34 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>TS OOP 深入 + 系列相关复杂技能</title>
+    <link href="https://zhangbing520.github.io/2022/05/17/ts-oop-shen-ru-xi-lie-xiang-guan-fu-za-ji-neng/"/>
+    <id>https://zhangbing520.github.io/2022/05/17/ts-oop-shen-ru-xi-lie-xiang-guan-fu-za-ji-neng/</id>
+    <published>2022-05-17T09:25:46.000Z</published>
+    <updated>2022-05-17T09:27:24.099Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h2 id=&quot;课程大纲&quot;&gt;&lt;a href=&quot;#课程大纲&quot; class=&quot;headerlink&quot; title=&quot;课程大纲&quot;&gt;&lt;/a&gt;课程大纲&lt;/h2&gt;&lt;ol&gt;
+&lt;li&gt;原型、类，引用类型&lt;/li&gt;
+&lt;li&gt;单件设计模式 + 各种扩展&lt;/li&gt;
+&lt;li&gt;各种重载 +</summary>
+        
+      
+    
+    
+    
+    <category term="原型" scheme="https://zhangbing520.github.io/categories/%E5%8E%9F%E5%9E%8B/"/>
+    
+    
+    <category term="TypeScript" scheme="https://zhangbing520.github.io/tags/TypeScript/"/>
+    
+  </entry>
   
   <entry>
     <title>TypeScript 装饰器</title>
