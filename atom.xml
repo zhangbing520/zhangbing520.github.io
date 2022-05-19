@@ -6,7 +6,7 @@
   <link href="https://zhangbing520.github.io/atom.xml" rel="self"/>
   
   <link href="https://zhangbing520.github.io/"/>
-  <updated>2022-05-18T06:25:37.792Z</updated>
+  <updated>2022-05-19T04:20:08.861Z</updated>
   <id>https://zhangbing520.github.io/</id>
   
   <author>
@@ -15,6 +15,31 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>TS继承</title>
+    <link href="https://zhangbing520.github.io/2022/05/19/ts-ji-cheng/"/>
+    <id>https://zhangbing520.github.io/2022/05/19/ts-ji-cheng/</id>
+    <published>2022-05-19T04:18:29.000Z</published>
+    <updated>2022-05-19T04:20:08.861Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h2 id=&quot;TS-继承&quot;&gt;&lt;a href=&quot;#TS-继承&quot; class=&quot;headerlink&quot; title=&quot;TS 继承&quot;&gt;&lt;/a&gt;TS 继承&lt;/h2&gt;&lt;h3 id=&quot;第二章-深度掌握-TypeScript-OOP-相关的一系列核心技能&quot;&gt;&lt;a</summary>
+        
+      
+    
+    
+    
+    <category term="继承" scheme="https://zhangbing520.github.io/categories/%E7%BB%A7%E6%89%BF/"/>
+    
+    
+    <category term="TypeScript" scheme="https://zhangbing520.github.io/tags/TypeScript/"/>
+    
+  </entry>
   
   <entry>
     <title>单件设计模式、静态属性、静态方法</title>
