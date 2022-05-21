@@ -6,7 +6,7 @@
   <link href="https://zhangbing520.github.io/atom.xml" rel="self"/>
   
   <link href="https://zhangbing520.github.io/"/>
-  <updated>2022-05-21T03:41:34.723Z</updated>
+  <updated>2022-05-21T07:42:45.768Z</updated>
   <id>https://zhangbing520.github.io/</id>
   
   <author>
@@ -15,6 +15,31 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>泛型类、泛型接口、泛型类约束</title>
+    <link href="https://zhangbing520.github.io/2022/05/21/fan-xing-lei-fan-xing-jie-kou-fan-xing-lei-yue-shu/"/>
+    <id>https://zhangbing520.github.io/2022/05/21/fan-xing-lei-fan-xing-jie-kou-fan-xing-lei-yue-shu/</id>
+    <published>2022-05-21T07:41:38.000Z</published>
+    <updated>2022-05-21T07:42:45.768Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h2 id=&quot;泛型类、泛型接口、泛型类约束&quot;&gt;&lt;a href=&quot;#泛型类、泛型接口、泛型类约束&quot; class=&quot;headerlink&quot; title=&quot;泛型类、泛型接口、泛型类约束&quot;&gt;&lt;/a&gt;泛型类、泛型接口、泛型类约束&lt;/h2&gt;&lt;h3</summary>
+        
+      
+    
+    
+    
+    <category term="泛型" scheme="https://zhangbing520.github.io/categories/%E6%B3%9B%E5%9E%8B/"/>
+    
+    
+    <category term="TypeScript" scheme="https://zhangbing520.github.io/tags/TypeScript/"/>
+    
+  </entry>
   
   <entry>
     <title>类型守卫、自定义守卫、抽象类、多态、TS4新特性</title>
