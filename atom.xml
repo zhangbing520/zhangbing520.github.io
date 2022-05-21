@@ -6,7 +6,7 @@
   <link href="https://zhangbing520.github.io/atom.xml" rel="self"/>
   
   <link href="https://zhangbing520.github.io/"/>
-  <updated>2022-05-21T07:42:45.768Z</updated>
+  <updated>2022-05-21T13:20:31.909Z</updated>
   <id>https://zhangbing520.github.io/</id>
   
   <author>
@@ -15,6 +15,19 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>泛型函数、交叉类型</title>
+    <link href="https://zhangbing520.github.io/2022/05/21/fan-xing-han-shu-jiao-cha-lei-xing/"/>
+    <id>https://zhangbing520.github.io/2022/05/21/fan-xing-han-shu-jiao-cha-lei-xing/</id>
+    <published>2022-05-21T13:20:31.000Z</published>
+    <updated>2022-05-21T13:20:31.909Z</updated>
+    
+    
+    
+    
+    
+  </entry>
   
   <entry>
     <title>泛型类、泛型接口、泛型类约束</title>
