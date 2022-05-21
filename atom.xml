@@ -6,7 +6,7 @@
   <link href="https://zhangbing520.github.io/atom.xml" rel="self"/>
   
   <link href="https://zhangbing520.github.io/"/>
-  <updated>2022-05-19T04:20:08.861Z</updated>
+  <updated>2022-05-21T03:41:34.723Z</updated>
   <id>https://zhangbing520.github.io/</id>
   
   <author>
@@ -15,6 +15,31 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>类型守卫、自定义守卫、抽象类、多态、TS4新特性</title>
+    <link href="https://zhangbing520.github.io/2022/05/21/lei-xing-shou-wei-zi-ding-yi-shou-wei-chou-xiang-lei-duo-tai-ts4-xin-te-xing/"/>
+    <id>https://zhangbing520.github.io/2022/05/21/lei-xing-shou-wei-zi-ding-yi-shou-wei-chou-xiang-lei-duo-tai-ts4-xin-te-xing/</id>
+    <published>2022-05-21T03:39:58.000Z</published>
+    <updated>2022-05-21T03:41:34.723Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h2 id=&quot;类型守卫、自定义守卫、抽象类、多态、TS4新特性&quot;&gt;&lt;a href=&quot;#类型守卫、自定义守卫、抽象类、多态、TS4新特性&quot; class=&quot;headerlink&quot;</summary>
+        
+      
+    
+    
+    
+    <category term="类型守卫" scheme="https://zhangbing520.github.io/categories/%E7%B1%BB%E5%9E%8B%E5%AE%88%E5%8D%AB/"/>
+    
+    
+    <category term="TypeScript" scheme="https://zhangbing520.github.io/tags/TypeScript/"/>
+    
+  </entry>
   
   <entry>
     <title>TS继承</title>
