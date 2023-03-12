@@ -4,12 +4,23 @@
 
 <head>
     <meta charset="utf-8">
-    <meta name="keywords" content="泛型类+泛型接口+泛型类约束的复杂应用, 雨的印记">
-    <meta name="description" content="泛型类+泛型接口+泛型类约束的复杂应用3.1 泛型类准备
-为什么要用泛型类【好处】  
- 可以看看之前提到的ArrayList的实现方式
-class ArrayList {
-  public element: Array&amp;lt;object">
+    <meta name="keywords" content="Git 小技巧, 雨的印记">
+    <meta name="description" content="Git 小技巧
+
+如何删除不需要的分支
+
+git branch -D [branch name]
+
+
+查看所有分支
+
+git branch
+git branch -av
+
+
+怎么修改最新的 commit message
+
+git commi">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
     <meta name="renderer" content="webkit|ie-stand|ie-comp">
@@ -24,7 +35,7 @@ class ArrayList {
 
     
 
-    <title>泛型类+泛型接口+泛型类约束的复杂应用 | 雨的印记</title>
+    <title>Git 小技巧 | 雨的印记</title>
     <link rel="icon" type="image/png" href="/favicon.png">
 
     <link rel="stylesheet" type="text/css" href="/libs/awesome/css/all.min.css">
@@ -317,12 +328,12 @@ class ArrayList {
 
 
 
-<div class="bg-cover pd-header post-cover" style="background-image: url('/medias/featureimages/10.jpg')">
+<div class="bg-cover pd-header post-cover" style="background-image: url('/medias/featureimages/0.jpg')">
     <div class="container" style="right: 0px;left: 0px;">
         <div class="row">
             <div class="col s12 m12 l12">
                 <div class="brand">
-                    <h1 class="description center-align post-title">泛型类+泛型接口+泛型类约束的复杂应用</h1>
+                    <h1 class="description center-align post-title">Git 小技巧</h1>
                 </div>
             </div>
         </div>
@@ -438,8 +449,8 @@ class ArrayList {
                     
                     <div class="article-tag">
                         
-                            <a href="/tags/TypeScript/">
-                                <span class="chip bg-color">TypeScript</span>
+                            <a href="/tags/Git/">
+                                <span class="chip bg-color">Git</span>
                             </a>
                         
                     </div>
@@ -450,8 +461,8 @@ class ArrayList {
                     <div class="post-cate">
                         <i class="fas fa-bookmark fa-fw icon-category"></i>
                         
-                            <a href="/categories/TypeScript/" class="post-category">
-                                TypeScript
+                            <a href="/categories/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7/" class="post-category">
+                                开发工具
                             </a>
                         
                     </div>
@@ -463,7 +474,7 @@ class ArrayList {
                 
                 <div class="post-date info-break-policy">
                     <i class="far fa-calendar-minus fa-fw"></i>发布日期:&nbsp;&nbsp;
-                    2022-05-11
+                    2023-03-12
                 </div>
                 
 
@@ -472,14 +483,14 @@ class ArrayList {
                 
                 <div class="info-break-policy">
                     <i class="far fa-file-word fa-fw"></i>文章字数:&nbsp;&nbsp;
-                    1.1k
+                    332
                 </div>
                 
 
                 
                 <div class="info-break-policy">
                     <i class="far fa-clock fa-fw"></i>阅读时长:&nbsp;&nbsp;
-                    4 分
+                    1 分
                 </div>
                 
 
@@ -502,160 +513,103 @@ class ArrayList {
 
         <div class="card-content article-card-content">
             <div id="articleContent">
-                <h2 id="泛型类-泛型接口-泛型类约束的复杂应用"><a href="#泛型类-泛型接口-泛型类约束的复杂应用" class="headerlink" title="泛型类+泛型接口+泛型类约束的复杂应用"></a>泛型类+泛型接口+泛型类约束的复杂应用</h2><h3 id="3-1-泛型类准备"><a href="#3-1-泛型类准备" class="headerlink" title="3.1 泛型类准备"></a>3.1 泛型类准备</h3><ul>
-<li><p>为什么要用泛型类【好处】  </p>
-<p> 可以看看之前提到的<code>ArrayList</code>的实现方式</p>
-<pre class="line-numbers language-typescript" data-language="typescript"><code class="language-typescript"><span class="token keyword">class</span> <span class="token class-name">ArrayList</span> <span class="token punctuation">{</span>
-  <span class="token keyword">public</span> element<span class="token operator">:</span> <span class="token builtin">Array</span><span class="token operator">&lt;</span>object<span class="token operator">&gt;</span>
+                <p>Git 小技巧</p>
+<ol>
+<li><h3 id="如何删除不需要的分支"><a href="#如何删除不需要的分支" class="headerlink" title="如何删除不需要的分支"></a>如何删除不需要的分支</h3></li>
+</ol>
+<pre class="line-numbers language-Shell" data-language="Shell"><code class="language-Shell">git branch -D [branch name]<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre>
 
-  <span class="token function">constructor</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
-    <span class="token keyword">this</span><span class="token punctuation">.</span>element <span class="token operator">=</span> <span class="token punctuation">[</span><span class="token punctuation">]</span>
-  <span class="token punctuation">}</span>
+<ol>
+<li><h3 id="查看所有分支"><a href="#查看所有分支" class="headerlink" title="查看所有分支"></a>查看所有分支</h3></li>
+</ol>
+<pre class="line-numbers language-Shell" data-language="Shell"><code class="language-Shell">git branch
+git branch -av<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span></span></code></pre>
 
-  <span class="token keyword">public</span> index<span class="token operator">:</span> <span class="token builtin">number</span> <span class="token operator">=</span> <span class="token number">0</span>
+<ol>
+<li><h3 id="怎么修改最新的-commit-message"><a href="#怎么修改最新的-commit-message" class="headerlink" title="怎么修改最新的 commit message"></a>怎么修改最新的 commit message</h3></li>
+</ol>
+<pre class="line-numbers language-Shell" data-language="Shell"><code class="language-Shell">git commit --amend<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre>
 
-  <span class="token keyword">public</span> <span class="token function">add</span><span class="token punctuation">(</span>obj<span class="token operator">:</span> object<span class="token punctuation">)</span> <span class="token punctuation">{</span>
-    <span class="token keyword">this</span><span class="token punctuation">.</span>element<span class="token punctuation">[</span><span class="token keyword">this</span><span class="token punctuation">.</span>index<span class="token operator">++</span><span class="token punctuation">]</span> <span class="token operator">=</span> obj
-  <span class="token punctuation">}</span>
-
-  <span class="token keyword">public</span> <span class="token function">checkIndex</span><span class="token punctuation">(</span>index<span class="token operator">:</span> <span class="token builtin">number</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
-    <span class="token keyword">if</span> <span class="token punctuation">(</span>index <span class="token operator">&lt;</span> <span class="token number">0</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
-      <span class="token keyword">throw</span> <span class="token keyword">new</span> <span class="token class-name">Error</span><span class="token punctuation">(</span><span class="token string">'index must bigger than 0'</span><span class="token punctuation">)</span>
-    <span class="token punctuation">}</span>
-  <span class="token punctuation">}</span>
-
-  <span class="token keyword">public</span> <span class="token function">get</span><span class="token punctuation">(</span>index<span class="token operator">:</span> <span class="token builtin">number</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
-    <span class="token keyword">this</span><span class="token punctuation">.</span><span class="token function">checkIndex</span><span class="token punctuation">(</span>index<span class="token punctuation">)</span>
-    <span class="token keyword">return</span> <span class="token keyword">this</span><span class="token punctuation">.</span>element<span class="token punctuation">[</span>index<span class="token punctuation">]</span>
-  <span class="token punctuation">}</span>
-
-  <span class="token keyword">public</span> <span class="token function">show</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
-    <span class="token keyword">this</span><span class="token punctuation">.</span>element<span class="token punctuation">.</span><span class="token function">forEach</span><span class="token punctuation">(</span>item <span class="token operator">=&gt;</span> <span class="token punctuation">{</span>
-      <span class="token builtin">console</span><span class="token punctuation">.</span><span class="token function">log</span><span class="token punctuation">(</span>item<span class="token punctuation">)</span>
-    <span class="token punctuation">}</span><span class="token punctuation">)</span>
-  <span class="token punctuation">}</span>
-
-<span class="token punctuation">}</span>
-
-<span class="token keyword">let</span> obj1 <span class="token operator">=</span> <span class="token punctuation">{</span> name<span class="token operator">:</span> <span class="token string">'zhangsan'</span><span class="token punctuation">,</span> age<span class="token operator">:</span> <span class="token number">10</span> <span class="token punctuation">}</span>
-<span class="token keyword">let</span> obj2 <span class="token operator">=</span> <span class="token punctuation">{</span> name<span class="token operator">:</span> <span class="token string">'lisi'</span><span class="token punctuation">,</span> age<span class="token operator">:</span> <span class="token number">20</span> <span class="token punctuation">}</span>
-<span class="token keyword">let</span> obj3 <span class="token operator">=</span> <span class="token punctuation">{</span> name<span class="token operator">:</span> <span class="token string">'liuwu'</span><span class="token punctuation">,</span> age<span class="token operator">:</span> <span class="token number">30</span> <span class="token punctuation">}</span>
-<span class="token keyword">let</span> arrayListOne <span class="token operator">=</span> <span class="token keyword">new</span> <span class="token class-name">ArrayList</span><span class="token punctuation">(</span><span class="token punctuation">)</span>
-arrayListOne<span class="token punctuation">.</span><span class="token function">add</span><span class="token punctuation">(</span>obj1<span class="token punctuation">)</span>
-arrayListOne<span class="token punctuation">.</span><span class="token function">add</span><span class="token punctuation">(</span>obj2<span class="token punctuation">)</span>
-<span class="token builtin">console</span><span class="token punctuation">.</span><span class="token function">log</span><span class="token punctuation">(</span>arrayListOne<span class="token punctuation">.</span><span class="token function">get</span><span class="token punctuation">(</span><span class="token number">0</span><span class="token punctuation">)</span><span class="token punctuation">)</span>
-arrayListOne<span class="token punctuation">.</span><span class="token function">show</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre>
-
-<img src="https://gitee.com/zhangbing520/images/raw/master/img/202205102044752.png" alt="image-20220510204450660" style="zoom:100%;"></li>
-</ul>
-<p>​	但上述的实现方式有一些缺点，现在的实现方式将数组元素规定为 <code>object</code>，当需求变更，需要变为<code>string</code>时，则需要将上述代码所有的<code>object</code>改为<code>string</code>，这样的处理方式实际上是有很大的不方便之处，而<strong>泛型</strong>的出现可以效解决上述问题。</p>
-<h3 id="3-2-泛型类定义、格式"><a href="#3-2-泛型类定义、格式" class="headerlink" title="3.2 泛型类定义、格式"></a>3.2 泛型类定义、格式</h3><ul>
-<li><h4 id="泛型定义"><a href="#泛型定义" class="headerlink" title="泛型定义"></a>泛型定义</h4></li>
-</ul>
-<p>​	泛型：一种参数化的数据类型，具有以下的特点：</p>
-<p>​	1. 定义时不明确，使用时必须明确成某种具体数据类型的数据类型</p>
-<p>​	2. 编译期间进行数据类型安全检查的数据类型</p>
-<blockquote>
-<p><code>特别注意</code>：</p>
-<pre><code> 1. 类型安全检查发生在**编译期间**
- 2. 泛型是参数化的数据类型，使用时明确化后的数据类型就是参数的值
-</code></pre>
-</blockquote>
+<ol>
+<li><h3 id="怎么修改老旧-commit-message-变基、交互式"><a href="#怎么修改老旧-commit-message-变基、交互式" class="headerlink" title="怎么修改老旧 commit message (变基、交互式)"></a>怎么修改老旧 commit message (变基、交互式)</h3></li>
+</ol>
 <ul>
-<li><h4 id="泛型格式"><a href="#泛型格式" class="headerlink" title="泛型格式"></a>泛型格式</h4><pre class="line-numbers language-typescript" data-language="typescript"><code class="language-typescript"><span class="token keyword">class</span> <span class="token class-name">类名<span class="token operator">&lt;</span>泛型形参类型<span class="token operator">&gt;</span></span>泛型形参类型必须是<span class="token constant">A</span><span class="token operator">-</span><span class="token constant">Z</span>任何一个字母，如下：
-<span class="token keyword">class</span> <span class="token class-name">ArrayList<span class="token operator">&lt;</span><span class="token constant">T</span><span class="token operator">&gt;</span></span><span class="token punctuation">{</span>
-		array<span class="token operator">:</span> <span class="token builtin">Array</span><span class="token operator">&lt;</span><span class="token constant">T</span><span class="token operator">&gt;</span>
-		<span class="token function">add</span><span class="token punctuation">(</span>data<span class="token operator">:</span><span class="token constant">T</span><span class="token punctuation">)</span><span class="token punctuation">{</span>
-				<span class="token operator">...</span>
-		<span class="token punctuation">}</span>
-    <span class="token operator">...</span>
-<span class="token punctuation">}</span><span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre></li>
+<li>在自己的分支上</li>
 </ul>
-<p>使用泛型改写ArrayList： </p>
-<pre class="line-numbers language-typescript" data-language="typescript"><code class="language-typescript"><span class="token keyword">class</span> <span class="token class-name">ArrayList<span class="token operator">&lt;</span><span class="token constant">T</span><span class="token operator">&gt;</span></span> <span class="token punctuation">{</span>
-  <span class="token keyword">public</span> element<span class="token operator">:</span> <span class="token builtin">Array</span><span class="token operator">&lt;</span><span class="token constant">T</span><span class="token operator">&gt;</span>
+<pre class="line-numbers language-Shell" data-language="Shell"><code class="language-Shell">git rebase -i [commit id]<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre>
 
-  <span class="token function">constructor</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
-    <span class="token keyword">this</span><span class="token punctuation">.</span>element <span class="token operator">=</span> <span class="token punctuation">[</span><span class="token punctuation">]</span>
-  <span class="token punctuation">}</span>
-
-  <span class="token keyword">public</span> index<span class="token operator">:</span> <span class="token builtin">number</span> <span class="token operator">=</span> <span class="token number">0</span>
-
-  <span class="token keyword">public</span> <span class="token function">add</span><span class="token punctuation">(</span>obj<span class="token operator">:</span> <span class="token constant">T</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
-    <span class="token keyword">this</span><span class="token punctuation">.</span>element<span class="token punctuation">[</span><span class="token keyword">this</span><span class="token punctuation">.</span>index<span class="token operator">++</span><span class="token punctuation">]</span> <span class="token operator">=</span> obj
-  <span class="token punctuation">}</span>
-
-  <span class="token keyword">public</span> <span class="token function">checkIndex</span><span class="token punctuation">(</span>index<span class="token operator">:</span> <span class="token builtin">number</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
-    <span class="token keyword">if</span> <span class="token punctuation">(</span>index <span class="token operator">&lt;</span> <span class="token number">0</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
-      <span class="token keyword">throw</span> <span class="token keyword">new</span> <span class="token class-name">Error</span><span class="token punctuation">(</span><span class="token string">'index must bigger than 0'</span><span class="token punctuation">)</span>
-    <span class="token punctuation">}</span>
-  <span class="token punctuation">}</span>
-
-  <span class="token keyword">public</span> <span class="token function">get</span><span class="token punctuation">(</span>index<span class="token operator">:</span> <span class="token builtin">number</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
-    <span class="token keyword">this</span><span class="token punctuation">.</span><span class="token function">checkIndex</span><span class="token punctuation">(</span>index<span class="token punctuation">)</span>
-    <span class="token keyword">return</span> <span class="token keyword">this</span><span class="token punctuation">.</span>element<span class="token punctuation">[</span>index<span class="token punctuation">]</span>
-  <span class="token punctuation">}</span>
-
-  <span class="token keyword">public</span> <span class="token function">show</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
-    <span class="token keyword">this</span><span class="token punctuation">.</span>element<span class="token punctuation">.</span><span class="token function">forEach</span><span class="token punctuation">(</span>item <span class="token operator">=&gt;</span> <span class="token punctuation">{</span>
-      <span class="token builtin">console</span><span class="token punctuation">.</span><span class="token function">log</span><span class="token punctuation">(</span>item<span class="token punctuation">)</span>
-    <span class="token punctuation">}</span><span class="token punctuation">)</span>
-  <span class="token punctuation">}</span>
-
-  <span class="token comment">// 函数重载</span>
-  <span class="token keyword">public</span> <span class="token function">remove</span><span class="token punctuation">(</span>index<span class="token operator">:</span> <span class="token builtin">number</span><span class="token punctuation">)</span><span class="token operator">:</span> <span class="token builtin">number</span>
-  <span class="token keyword">public</span> <span class="token function">remove</span><span class="token punctuation">(</span>obj<span class="token operator">:</span> object<span class="token punctuation">)</span><span class="token operator">:</span> object
-  <span class="token keyword">public</span> <span class="token function">remove</span><span class="token punctuation">(</span>removeIndexOrItem<span class="token operator">:</span> <span class="token builtin">any</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
-    <span class="token keyword">if</span> <span class="token punctuation">(</span><span class="token keyword">typeof</span> removeIndexOrItem <span class="token operator">===</span> <span class="token string">'number'</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
-      <span class="token keyword">this</span><span class="token punctuation">.</span>element <span class="token operator">=</span> <span class="token keyword">this</span><span class="token punctuation">.</span>element<span class="token punctuation">.</span><span class="token function">filter</span><span class="token punctuation">(</span><span class="token punctuation">(</span>item<span class="token punctuation">,</span> index<span class="token punctuation">)</span> <span class="token operator">=&gt;</span> removeIndexOrItem <span class="token operator">!==</span> index<span class="token punctuation">)</span>
-      <span class="token builtin">console</span><span class="token punctuation">.</span><span class="token function">log</span><span class="token punctuation">(</span><span class="token string">'this.element:'</span><span class="token punctuation">,</span> <span class="token keyword">this</span><span class="token punctuation">.</span>element<span class="token punctuation">)</span>
-    <span class="token punctuation">}</span> <span class="token keyword">else</span> <span class="token punctuation">{</span>
-      <span class="token keyword">this</span><span class="token punctuation">.</span>element <span class="token operator">=</span> <span class="token keyword">this</span><span class="token punctuation">.</span>element<span class="token punctuation">.</span><span class="token function">filter</span><span class="token punctuation">(</span>item <span class="token operator">=&gt;</span> <span class="token punctuation">(</span>item <span class="token keyword">as</span> <span class="token builtin">any</span><span class="token punctuation">)</span><span class="token punctuation">.</span>name <span class="token operator">!==</span> removeIndexOrItem<span class="token punctuation">.</span>name<span class="token punctuation">)</span>
-      <span class="token keyword">return</span> removeIndexOrItem
-    <span class="token punctuation">}</span>
-  <span class="token punctuation">}</span>
-
-
-<span class="token punctuation">}</span>
-
-<span class="token keyword">type</span> <span class="token class-name">Myobj</span> <span class="token operator">=</span> <span class="token punctuation">{</span>
-  name<span class="token operator">:</span> <span class="token builtin">string</span><span class="token punctuation">,</span>
-  age<span class="token operator">:</span> <span class="token builtin">number</span>
-<span class="token punctuation">}</span>
-<span class="token keyword">let</span> obj1<span class="token operator">:</span> Myobj <span class="token operator">=</span> <span class="token punctuation">{</span> name<span class="token operator">:</span> <span class="token string">'zhangsan'</span><span class="token punctuation">,</span> age<span class="token operator">:</span> <span class="token number">10</span> <span class="token punctuation">}</span>
-<span class="token keyword">let</span> obj2<span class="token operator">:</span> Myobj <span class="token operator">=</span> <span class="token punctuation">{</span> name<span class="token operator">:</span> <span class="token string">'lisi'</span><span class="token punctuation">,</span> age<span class="token operator">:</span> <span class="token number">20</span> <span class="token punctuation">}</span>
-<span class="token comment">// let arrayListOne = new ArrayList&lt;object&gt;()</span>
-<span class="token keyword">let</span> arrayListOne <span class="token operator">=</span> <span class="token keyword">new</span> <span class="token class-name">ArrayList<span class="token operator">&lt;</span><span class="token keyword">typeof</span> obj1<span class="token operator">&gt;</span></span><span class="token punctuation">(</span><span class="token punctuation">)</span>
-
-arrayListOne<span class="token punctuation">.</span><span class="token function">add</span><span class="token punctuation">(</span>obj1<span class="token punctuation">)</span>
-arrayListOne<span class="token punctuation">.</span><span class="token function">add</span><span class="token punctuation">(</span>obj2<span class="token punctuation">)</span>
-<span class="token builtin">console</span><span class="token punctuation">.</span><span class="token function">log</span><span class="token punctuation">(</span>arrayListOne<span class="token punctuation">.</span><span class="token function">get</span><span class="token punctuation">(</span><span class="token number">0</span><span class="token punctuation">)</span><span class="token punctuation">)</span>
-<span class="token builtin">console</span><span class="token punctuation">.</span><span class="token function">log</span><span class="token punctuation">(</span>arrayListOne<span class="token punctuation">.</span><span class="token function">remove</span><span class="token punctuation">(</span>obj2<span class="token punctuation">)</span><span class="token punctuation">)</span>
-arrayListOne<span class="token punctuation">.</span><span class="token function">show</span><span class="token punctuation">(</span><span class="token punctuation">)</span>
-
-<span class="token keyword">export</span> <span class="token punctuation">{</span> <span class="token punctuation">}</span>
-<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre>
-
-<p>​			</p>
-<h3 id="3-3-TS-泛型类：object-为什么不能替代类上的泛型"><a href="#3-3-TS-泛型类：object-为什么不能替代类上的泛型" class="headerlink" title="3.3 TS 泛型类：object 为什么不能替代类上的泛型"></a>3.3 TS 泛型类：object 为什么不能替代类上的泛型</h3><ul>
-<li><p>原因一：编译期间 object 无法进行类型安全检查，而泛型在编译期间可以进行类型安全检查</p>
-<p>Object 接受也只能接受所有的 object 类型的变量，比如 Customer，Student，Dog 类的实例都是对象类型，或者自己定义的对象，都可以传递给  object 类型的方法参数或属性，但如果我们只希望添加 Customer 的对象，当添加其他类的对象要求必须出现编译错误，但是 object 无法做到，就只能用泛型了。</p>
-</li>
-</ul>
-<ul>
-<li><p>原因二：object 类型数据无法接受非 object 类型的变量，只能接受 object 类型的变量，泛型能轻松做到</p>
-<p>正因为 object 接受也只能接受所有的 object 类型的变量，那么如果有一个集合【数组封装类】有一个 add 方法，允许每次添加指定类型的变量到 add 方法的参数，比如，我们第一轮是希望添加 10 次字符串类型的变量，第二轮希望添加 10 次整数类型变量，第三轮希望添加 10 次 Customer 类型的变量，泛型能轻松做到。object 类型数据无法接受任意非 object 类型的变量</p>
-</li>
-<li><p>原因三：object 类型数据获取属性和方法时无法自动提示</p>
-<p>一种泛型类型被具体化成某种数据类型后，该数据类型的变量获取属性和方法时会自动提示，提高代码开发效率和减少出错，但在 object 类型的变量无法获取数据类型的属性和方法，降低了体验感和开发效率。</p>
-</li>
-</ul>
 <blockquote>
-<p>注：object 和 Object 的区别</p>
-<p>​	1. Object范围较广，number 也是 Object 的子类</p>
-<p>​	2. 属性和方法：Object可以点出来</p>
+<p>变基的基需要选择需要变化的父级</p>
 </blockquote>
-<img src="https://gitee.com/zhangbing520/images/raw/master/img/202205110052773.png" alt="image-20220511005225717" style="zoom:60%;">
+<ol>
+<li><h3 id="怎么把连续的多个-commit-合并成-1-个"><a href="#怎么把连续的多个-commit-合并成-1-个" class="headerlink" title="怎么把连续的多个 commit 合并成 1 个"></a>怎么把连续的多个 commit 合并成 1 个</h3></li>
+</ol>
+<pre class="line-numbers language-Shell" data-language="Shell"><code class="language-Shell">git rebase -i<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre>
+
+<blockquote>
+<p>交互式变基选择相应的策略： pick 或者 squash</p>
+</blockquote>
+<ol>
+<li><h3 id="怎么把间隔的几个-commit-整理成一个"><a href="#怎么把间隔的几个-commit-整理成一个" class="headerlink" title="怎么把间隔的几个 commit 整理成一个"></a>怎么把间隔的几个 commit 整理成一个</h3></li>
+</ol>
+<pre class="line-numbers language-Shell" data-language="Shell"><code class="language-Shell">git rebase -i<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre>
+
+<blockquote>
+<p>注意需要调整交互后的 commit 顺序，并采用 squash</p>
+</blockquote>
+<ol>
+<li><h3 id="怎么比较-暂存区和-HEAD-所含文件的差异"><a href="#怎么比较-暂存区和-HEAD-所含文件的差异" class="headerlink" title="怎么比较 暂存区和 HEAD 所含文件的差异"></a>怎么比较 暂存区和 HEAD 所含文件的差异</h3></li>
+</ol>
+<pre class="line-numbers language-Shell" data-language="Shell"><code class="language-Shell">git diff --cached<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre>
+
+<ol>
+<li><h3 id="怎么比较工作区和暂存区文件的差异"><a href="#怎么比较工作区和暂存区文件的差异" class="headerlink" title="怎么比较工作区和暂存区文件的差异"></a>怎么比较工作区和暂存区文件的差异</h3></li>
+</ol>
+<pre class="line-numbers language-Shell" data-language="Shell"><code class="language-Shell">git diff<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre>
+
+<ol>
+<li><h3 id="怎样让暂存区恢复成和-HEAD-一样"><a href="#怎样让暂存区恢复成和-HEAD-一样" class="headerlink" title="怎样让暂存区恢复成和 HEAD 一样"></a>怎样让暂存区恢复成和 HEAD 一样</h3></li>
+</ol>
+<pre class="line-numbers language-Shell" data-language="Shell"><code class="language-Shell">git reset HEAD<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre>
+
+<ol>
+<li><h3 id="如何让工作区的文件恢复成和暂存区一样"><a href="#如何让工作区的文件恢复成和暂存区一样" class="headerlink" title="如何让工作区的文件恢复成和暂存区一样"></a>如何让工作区的文件恢复成和暂存区一样</h3></li>
+</ol>
+<pre class="line-numbers language-Shell" data-language="Shell"><code class="language-Shell">git checkout -- index.html<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre>
+
+<blockquote>
+<p>放弃工作区对 index.html 文件的修改</p>
+</blockquote>
+<ol>
+<li><h3 id="怎样取消暂存区部分文件的修改"><a href="#怎样取消暂存区部分文件的修改" class="headerlink" title="怎样取消暂存区部分文件的修改"></a>怎样取消暂存区部分文件的修改</h3></li>
+</ol>
+<pre class="line-numbers language-Shell" data-language="Shell"><code class="language-Shell">git reset HEAD index.html readme.md<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre>
+
+<ol>
+<li><h3 id="消除最近的几次提交"><a href="#消除最近的几次提交" class="headerlink" title="消除最近的几次提交"></a>消除最近的几次提交</h3></li>
+</ol>
+<pre class="line-numbers language-Shell" data-language="Shell"><code class="language-Shell">git reset --hard [commit id]<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre>
+
+<blockquote>
+<p>工作区和暂存区都恢复到指定的提交</p>
+</blockquote>
+<ol>
+<li><h3 id="看看不同提交的指定文件的差异"><a href="#看看不同提交的指定文件的差异" class="headerlink" title="看看不同提交的指定文件的差异"></a>看看不同提交的指定文件的差异</h3></li>
+</ol>
+<pre class="line-numbers language-Shell" data-language="Shell"><code class="language-Shell">git diff temp master --index.html<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre>
+
+<ol>
+<li><h3 id="正确删除文件的方式"><a href="#正确删除文件的方式" class="headerlink" title="正确删除文件的方式"></a>正确删除文件的方式</h3></li>
+</ol>
+<pre class="line-numbers language-Shell" data-language="Shell"><code class="language-Shell">git rm [filename]<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre>
+
+<ol>
+<li><h3 id="stash"><a href="#stash" class="headerlink" title="stash"></a>stash</h3></li>
+</ol>
+<pre class="line-numbers language-Shell" data-language="Shell"><code class="language-Shell">git stash
+git stash list
+git stash apply
+git stash pop<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span></span></code></pre>
 
                 
             </div>
@@ -682,7 +636,7 @@ arrayListOne<span class="token punctuation">.</span><span class="token function"
                     </i>
                 </span>
                 <span class="reprint-info">
-                    <a href="https://zhangbing520.github.io/2022/05/11/fan-xing-lei-fan-xing-jie-kou-fan-xing-lei-yue-shu-de-fu-za-ying-yong/">https://zhangbing520.github.io/2022/05/11/fan-xing-lei-fan-xing-jie-kou-fan-xing-lei-yue-shu-de-fu-za-ying-yong/</a>
+                    <a href="https://zhangbing520.github.io/2023/03/12/git-xiao-ji-qiao/">https://zhangbing520.github.io/2023/03/12/git-xiao-ji-qiao/</a>
                 </span>
             </div>
             <div class="reprint__notice">
@@ -720,8 +674,8 @@ arrayListOne<span class="token punctuation">.</span><span class="token function"
                     
                         <div class="article-tag">
                             
-                                <a href="/tags/TypeScript/">
-                                    <span class="chip bg-color">TypeScript</span>
+                                <a href="/tags/Git/">
+                                    <span class="chip bg-color">Git</span>
                                 </a>
                             
                         </div>
@@ -895,17 +849,18 @@ arrayListOne<span class="token punctuation">.</span><span class="token function"
 <article id="prenext-posts" class="prev-next articles">
     <div class="row article-row">
         
-        <div class="article col s12 m6" data-aos="fade-up">
+        <div class="article col s12 m6" data-aos="fade-up" data-aos="fade-up">
             <div class="article-badge left-badge text-color">
-                <i class="fas fa-chevron-left"></i>&nbsp;上一篇</div>
+                <i class="far fa-dot-circle"></i>&nbsp;本篇
+            </div>
             <div class="card">
-                <a href="/2022/05/12/di-si-zhang-shen-du-zhang-wo-fan-xing-han-shu/">
+                <a href="/2023/03/12/git-xiao-ji-qiao/">
                     <div class="card-image">
                         
                         
-                        <img src="/medias/featureimages/20.jpg" class="responsive-img" alt="第四章： 深度掌握泛型函数">
+                        <img src="/medias/featureimages/0.jpg" class="responsive-img" alt="Git 小技巧">
                         
-                        <span class="card-title">第四章： 深度掌握泛型函数</span>
+                        <span class="card-title">Git 小技巧</span>
                     </div>
                 </a>
                 <div class="card-content article-content">
@@ -915,26 +870,27 @@ arrayListOne<span class="token punctuation">.</span><span class="token function"
                         
                     </div>
                     <div class="publish-info">
-                        <span class="publish-date">
-                            <i class="far fa-clock fa-fw icon-date"></i>2022-05-12
-                        </span>
+                            <span class="publish-date">
+                                <i class="far fa-clock fa-fw icon-date"></i>2023-03-12
+                            </span>
                         <span class="publish-author">
                             
                             <i class="fas fa-bookmark fa-fw icon-category"></i>
                             
-                            <a href="/categories/TypeScript/" class="post-category">
-                                    TypeScript
+                            <a href="/categories/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7/" class="post-category">
+                                    开发工具
                                 </a>
                             
                             
                         </span>
                     </div>
                 </div>
+
                 
                 <div class="card-action article-tags">
                     
-                    <a href="/tags/TypeScript/">
-                        <span class="chip bg-color">TypeScript</span>
+                    <a href="/tags/Git/">
+                        <span class="chip bg-color">Git</span>
                     </a>
                     
                 </div>
@@ -948,35 +904,31 @@ arrayListOne<span class="token punctuation">.</span><span class="token function"
                 下一篇&nbsp;<i class="fas fa-chevron-right"></i>
             </div>
             <div class="card">
-                <a href="/2022/05/10/shi-yong-hexo-da-jian-bo-ke-liu-cheng/">
+                <a href="/2022/05/21/fan-xing-han-shu-jiao-cha-lei-xing/">
                     <div class="card-image">
                         
                         
-                        <img src="/medias/featureimages/23.jpg" class="responsive-img" alt="Hexo + Github 搭建博客">
+                        <img src="/medias/featureimages/5.jpg" class="responsive-img" alt="泛型函数、交叉类型">
                         
-                        <span class="card-title">Hexo + Github 搭建博客</span>
+                        <span class="card-title">泛型函数、交叉类型</span>
                     </div>
                 </a>
                 <div class="card-content article-content">
                     <div class="summary block-with-text">
                         
-                            使用hexo搭建博客流程1. 基础搭建
-下载Node（包括node npm）
-node -v
-npm -v
-
+                            
                         
                     </div>
                     <div class="publish-info">
                             <span class="publish-date">
-                                <i class="far fa-clock fa-fw icon-date"></i>2022-05-10
+                                <i class="far fa-clock fa-fw icon-date"></i>2022-05-21
                             </span>
                         <span class="publish-author">
                             
                             <i class="fas fa-bookmark fa-fw icon-category"></i>
                             
-                            <a href="/categories/hexo/" class="post-category">
-                                    hexo
+                            <a href="/categories/%E6%B3%9B%E5%9E%8B%E5%87%BD%E6%95%B0/" class="post-category">
+                                    泛型函数
                                 </a>
                             
                             
@@ -986,8 +938,8 @@ npm -v
                 
                 <div class="card-action article-tags">
                     
-                    <a href="/tags/hexo/">
-                        <span class="chip bg-color">hexo</span>
+                    <a href="/tags/TypeScript/">
+                        <span class="chip bg-color">TypeScript</span>
                     </a>
                     
                 </div>

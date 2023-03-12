@@ -4,6 +4,31 @@
   
     
     <entry>
+      <title>Git 小技巧</title>
+      <link href="/2023/03/12/git-xiao-ji-qiao/"/>
+      <url>/2023/03/12/git-xiao-ji-qiao/</url>
+      
+        <content type="html"><![CDATA[<p>Git 小技巧</p><ol><li><h3 id="如何删除不需要的分支"><a href="#如何删除不需要的分支" class="headerlink" title="如何删除不需要的分支"></a>如何删除不需要的分支</h3></li></ol><pre class="line-numbers language-Shell" data-language="Shell"><code class="language-Shell">git branch -D [branch name]<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre><ol><li><h3 id="查看所有分支"><a href="#查看所有分支" class="headerlink" title="查看所有分支"></a>查看所有分支</h3></li></ol><pre class="line-numbers language-Shell" data-language="Shell"><code class="language-Shell">git branchgit branch -av<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span></span></code></pre><ol><li><h3 id="怎么修改最新的-commit-message"><a href="#怎么修改最新的-commit-message" class="headerlink" title="怎么修改最新的 commit message"></a>怎么修改最新的 commit message</h3></li></ol><pre class="line-numbers language-Shell" data-language="Shell"><code class="language-Shell">git commit --amend<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre><ol><li><h3 id="怎么修改老旧-commit-message-变基、交互式"><a href="#怎么修改老旧-commit-message-变基、交互式" class="headerlink" title="怎么修改老旧 commit message (变基、交互式)"></a>怎么修改老旧 commit message (变基、交互式)</h3></li></ol><ul><li>在自己的分支上</li></ul><pre class="line-numbers language-Shell" data-language="Shell"><code class="language-Shell">git rebase -i [commit id]<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre><blockquote><p>变基的基需要选择需要变化的父级</p></blockquote><ol><li><h3 id="怎么把连续的多个-commit-合并成-1-个"><a href="#怎么把连续的多个-commit-合并成-1-个" class="headerlink" title="怎么把连续的多个 commit 合并成 1 个"></a>怎么把连续的多个 commit 合并成 1 个</h3></li></ol><pre class="line-numbers language-Shell" data-language="Shell"><code class="language-Shell">git rebase -i<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre><blockquote><p>交互式变基选择相应的策略： pick 或者 squash</p></blockquote><ol><li><h3 id="怎么把间隔的几个-commit-整理成一个"><a href="#怎么把间隔的几个-commit-整理成一个" class="headerlink" title="怎么把间隔的几个 commit 整理成一个"></a>怎么把间隔的几个 commit 整理成一个</h3></li></ol><pre class="line-numbers language-Shell" data-language="Shell"><code class="language-Shell">git rebase -i<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre><blockquote><p>注意需要调整交互后的 commit 顺序，并采用 squash</p></blockquote><ol><li><h3 id="怎么比较-暂存区和-HEAD-所含文件的差异"><a href="#怎么比较-暂存区和-HEAD-所含文件的差异" class="headerlink" title="怎么比较 暂存区和 HEAD 所含文件的差异"></a>怎么比较 暂存区和 HEAD 所含文件的差异</h3></li></ol><pre class="line-numbers language-Shell" data-language="Shell"><code class="language-Shell">git diff --cached<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre><ol><li><h3 id="怎么比较工作区和暂存区文件的差异"><a href="#怎么比较工作区和暂存区文件的差异" class="headerlink" title="怎么比较工作区和暂存区文件的差异"></a>怎么比较工作区和暂存区文件的差异</h3></li></ol><pre class="line-numbers language-Shell" data-language="Shell"><code class="language-Shell">git diff<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre><ol><li><h3 id="怎样让暂存区恢复成和-HEAD-一样"><a href="#怎样让暂存区恢复成和-HEAD-一样" class="headerlink" title="怎样让暂存区恢复成和 HEAD 一样"></a>怎样让暂存区恢复成和 HEAD 一样</h3></li></ol><pre class="line-numbers language-Shell" data-language="Shell"><code class="language-Shell">git reset HEAD<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre><ol><li><h3 id="如何让工作区的文件恢复成和暂存区一样"><a href="#如何让工作区的文件恢复成和暂存区一样" class="headerlink" title="如何让工作区的文件恢复成和暂存区一样"></a>如何让工作区的文件恢复成和暂存区一样</h3></li></ol><pre class="line-numbers language-Shell" data-language="Shell"><code class="language-Shell">git checkout -- index.html<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre><blockquote><p>放弃工作区对 index.html 文件的修改</p></blockquote><ol><li><h3 id="怎样取消暂存区部分文件的修改"><a href="#怎样取消暂存区部分文件的修改" class="headerlink" title="怎样取消暂存区部分文件的修改"></a>怎样取消暂存区部分文件的修改</h3></li></ol><pre class="line-numbers language-Shell" data-language="Shell"><code class="language-Shell">git reset HEAD index.html readme.md<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre><ol><li><h3 id="消除最近的几次提交"><a href="#消除最近的几次提交" class="headerlink" title="消除最近的几次提交"></a>消除最近的几次提交</h3></li></ol><pre class="line-numbers language-Shell" data-language="Shell"><code class="language-Shell">git reset --hard [commit id]<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre><blockquote><p>工作区和暂存区都恢复到指定的提交</p></blockquote><ol><li><h3 id="看看不同提交的指定文件的差异"><a href="#看看不同提交的指定文件的差异" class="headerlink" title="看看不同提交的指定文件的差异"></a>看看不同提交的指定文件的差异</h3></li></ol><pre class="line-numbers language-Shell" data-language="Shell"><code class="language-Shell">git diff temp master --index.html<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre><ol><li><h3 id="正确删除文件的方式"><a href="#正确删除文件的方式" class="headerlink" title="正确删除文件的方式"></a>正确删除文件的方式</h3></li></ol><pre class="line-numbers language-Shell" data-language="Shell"><code class="language-Shell">git rm [filename]<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre><ol><li><h3 id="stash"><a href="#stash" class="headerlink" title="stash"></a>stash</h3></li></ol><pre class="line-numbers language-Shell" data-language="Shell"><code class="language-Shell">git stashgit stash listgit stash applygit stash pop<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span></span></code></pre>]]></content>
+      
+      
+      <categories>
+          
+          <category> 开发工具 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> Git </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>泛型函数、交叉类型</title>
       <link href="/2022/05/21/fan-xing-han-shu-jiao-cha-lei-xing/"/>
       <url>/2022/05/21/fan-xing-han-shu-jiao-cha-lei-xing/</url>

@@ -6,7 +6,7 @@
   <link href="https://zhangbing520.github.io/atom.xml" rel="self"/>
   
   <link href="https://zhangbing520.github.io/"/>
-  <updated>2022-05-21T13:22:02.113Z</updated>
+  <updated>2023-03-12T12:58:48.848Z</updated>
   <id>https://zhangbing520.github.io/</id>
   
   <author>
@@ -15,6 +15,35 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Git 小技巧</title>
+    <link href="https://zhangbing520.github.io/2023/03/12/git-xiao-ji-qiao/"/>
+    <id>https://zhangbing520.github.io/2023/03/12/git-xiao-ji-qiao/</id>
+    <published>2023-03-12T12:55:25.000Z</published>
+    <updated>2023-03-12T12:58:48.848Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;Git 小技巧&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;h3 id=&quot;如何删除不需要的分支&quot;&gt;&lt;a href=&quot;#如何删除不需要的分支&quot; class=&quot;headerlink&quot; title=&quot;如何删除不需要的分支&quot;&gt;&lt;/a&gt;如何删除不需要的分支&lt;/h3&gt;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;pre</summary>
+        
+      
+    
+    
+    
+    <category term="开发工具" scheme="https://zhangbing520.github.io/categories/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7/"/>
+    
+    
+    <category term="Git" scheme="https://zhangbing520.github.io/tags/Git/"/>
+    
+  </entry>
   
   <entry>
     <title>泛型函数、交叉类型</title>
